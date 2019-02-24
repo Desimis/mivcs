@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 
 namespace mivcs
 {
@@ -6,7 +7,7 @@ namespace mivcs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+          new Runtime().Hook(new MivCsEngine()).Start();
         }
     }
 }
